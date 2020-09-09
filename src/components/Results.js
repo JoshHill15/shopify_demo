@@ -33,7 +33,7 @@ function Results({ results, nominations, updateNominations, disabled, updateDisa
         <ul>
           <li
             key={id}>{Title} ({Year})
-            <button
+              <button
               onClick={e => {
                 nominate({ id, Title, Year }, i)
               }}
